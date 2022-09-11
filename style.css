@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #e7e7e7;
+  background-image: url(./assets/2\ 1.png);
+  background-repeat: no-repeat;
+  background-position: 187px 64px;
+  background-size: 1081px 586px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  padding-top: 43px;
+}
+header h3 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+
+  margin-left: 86px;
+  margin-right: 122px;
+}
+
+header a strong {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+
+  margin-right: 433px;
+}
+
+nav a em {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  margin-right: 58px;
+}
+
+nav a img {
+  margin-right: 13px;
+}
+
+.container1 {
+  margin-left: 353px;
+  margin-top: 60px;
+}
+.box {
+  display: flex;
+  gap: 15px;
+}
+
+.box p {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+}
+
+main h2 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #8d8d8d;
+}
+
+@font-face {
+  font-family: 'Uni Neue';
+  src: url(./assets/Fontfabric\ -\ UniNeueBook.otf);
+}
+
+main h1 {
+  font-family: 'Uni Neue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 180px;
+  line-height: 243px;
+
+  width: 290px;
+  height: 243px;
+  position: absolute;
+  left: 73px;
+  top: 161px;
+}
+
+.submit {
+  position: absolute;
+  width: 87px;
+  height: 58px;
+  left: 458.3px;
+  top: 544.3px;
+
+  background: #000000;
+}
+
+aside {
+  border-bottom: 1.5px solid #000000;
+  width: 124px;
+  height: 64px;
+  padding: 2px;
+
+  transform: rotate(90deg);
+  position: absolute;
+  left: 1120px;
+  top: 136px;
+}
+
+.lateral {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+footer h2 {
+  font-family: 'Bebas Neue', cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 115px;
+
+  transform: rotate(90deg);
+  position: absolute;
+  left: 63px;
+  top: 492px;
+}
